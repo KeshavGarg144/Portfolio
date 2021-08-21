@@ -3,5 +3,16 @@ body{
 }
 .home{
     height:100vh;
-
+    background: linear-gradient(
+        rgba(221, 208, 208, 0.1),
+        rgba(53, 54, 150, 0.9)),
+        url("../images/3.jpg");
+    background-size:cover;
+}
+.intro{
+    color: whitesmoke;
+    padding:5% 20%;
+    text-align: justify;
+    font-size: 20px;
+    font-weight:lighter;
 }
